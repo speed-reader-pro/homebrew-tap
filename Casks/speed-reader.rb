@@ -2,7 +2,8 @@ cask "speed-reader" do
     version "1.0.8"                                                                                                                                        
     sha256 "762ad828512f0df2bbb048c54a179c7b1664ff91ea1476dd4c4c6005bb66547a"                                                                              
                                                                                                                                                            
-    url "https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v#{version}/SpeedReader.dmg"                                      
+    url "https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v#{version}/SpeedReader.dmg",
+        verified: "github.com/speed-reader-pro/speed-reader-app-releases/"
     name "Speed Reader"                                                                                                                                    
     desc "RSVP speed-reading app with ORP highlighting"                                                                                                    
     homepage "https://speed-reader.pro"                                                                                                                    
