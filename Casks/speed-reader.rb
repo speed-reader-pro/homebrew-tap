@@ -1,6 +1,6 @@
 cask "speed-reader" do                                                                                                                                   
-    version "1.1.13"
-    sha256 "0bd7262d03a771693dffce67e2cc7393e6b89f35e294b73a3d213c8eb4a6bbbf"                                                                              
+    version "1.1.12"
+    sha256 "3d6a1d72ea9105225b62105031ecb2f14d9ea987c791a6186442c6de7969ab21"                                                                              
                                                                                                                                                            
     url "https://github.com/speed-reader-pro/speed-reader-app-releases/releases/download/v#{version}/SpeedReader.dmg",
         verified: "github.com/speed-reader-pro/speed-reader-app-releases/"
